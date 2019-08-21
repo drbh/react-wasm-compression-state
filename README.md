@@ -42,3 +42,23 @@ export default function Counter() {
   );
 }
 ```
+
+
+## Benefit
+
+Lets say we click the button above a few times and the counter is `1000000000000003`, 
+
+#### uncompressed  
+
+```
+1000000000000003 == 16 bytes
+```
+
+#### compressed
+
+```
+1000000000000003 == MzRAAcYA
+MzRAAcYA == 8 bytes
+```
+
+Thats **50%** of the original size, in this case we half the amount of localstorage needed 🎉
