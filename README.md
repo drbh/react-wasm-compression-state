@@ -4,12 +4,16 @@
 [![npm version](https://badge.fury.io/js/react-compressed-local-storage.svg)](https://badge.fury.io/js/react-compressed-local-storage)
 [![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta)
 
-# Install 
-```
+## Install 
+```bash
 npm i react-compressed-local-storage
 ```
 
-# Use
+## Use
+
+
+#### Example
+Check out https://github.com/drbh/react-compressed-local-storage for a full React example
 
 Using the hook is easy! Just use `useCompressedLocalStorageState` in place of `setState`
 
@@ -31,7 +35,7 @@ export default function Counter() {
 ```
 
 
-# Dev
+### Dev
 ```
 npm publish
 ```
